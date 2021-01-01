@@ -1,0 +1,98 @@
+.navigation {
+  flex-shrink: 0;
+}
+
+/* #contact, #blog {
+  flex-shrink: 0;
+  /* max-height: 10px;
+} */
+
+
+
+#main-content{
+  margin: 100px 100px 50px 100px;
+  padding: 70px 15% 100px 15%;
+  background-color: rgba(255, 0, 0, 0.6);
+  border-style: solid;
+}
+
+#portfolio-content{
+  margin: 100px 200px 50px 200px;
+  padding: 0px 50px 100px 50px;
+  background-color: white;
+  /* border-style: solid; */
+}
+
+#play {
+  background-color: rgba(255, 0, 0, 0.6);
+  justify-content: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-content:flex-end;
+}
+
+#home_page{
+  margin: 30px;
+  background: url("math_equations.jpg");
+}
+#portfolio-content a {
+  text-decoration: none;
+  color: #0066FF;
+}
+a.navigation {
+  font-family: sans;
+  font-weight:bold;
+  font-size: 1.8em;
+  background-color: #C0C0C0;
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-color: #C0C0C0;
+  border-radius: 100em;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
+}
+a:hover {
+   color: black;
+   background-color: white;
+   border-color: white;
+}
+
+a:active {
+   color: black;
+   background-color: white;
+   border-color: white;
+}
+h1{
+  font-size: 2em;
+}
+#intro{
+  color: white;
+  font-size: 1.5em;
+}
+
+ .name {
+  color: white;
+  font-family:Lobster, cursive;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+
+#portfolio-content h1 {
+  color: blue;
+}
+
+.contact {
+   font-size: 2em;
+   text-decoration: none;
+   color: blue;
+}
+
+a.contact:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.0);
+}
